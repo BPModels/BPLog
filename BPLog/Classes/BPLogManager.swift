@@ -18,18 +18,19 @@ public protocol BPLogDelegate: NSObjectProtocol {
     func addRequestLogAfter()
 }
 
+/// 日志管理
 public struct BPLogManager {
-    static let share = BPLogManager()
+    public static let share = BPLogManager()
     
-    var delegate: BPLogDelegate?
+    public var delegate: BPLogDelegate?
     
     /// 普通操作日志路径
-    var requestLogPath: String {
+    public var requestLogPath: String {
         let path = BPOCLog.shared()?.loggerFoRequest.logFileManager.logsDirectory
         return path ?? ""
     }
     /// 网络请求日志路径
-    var normalLogPath: String {
+    public var normalLogPath: String {
         let path = BPOCLog.shared()?.loggerForEvent.logFileManager.logsDirectory
         return path ?? ""
     }
