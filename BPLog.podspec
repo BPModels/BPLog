@@ -38,5 +38,8 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
+   # 日志收集
    s.dependency 'CocoaLumberjack/Swift'
+   # 压、解压缩处理
+   s.dependency 'ZipArchive'
 end

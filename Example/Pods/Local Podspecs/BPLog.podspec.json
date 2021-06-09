@@ -23,6 +23,9 @@
   "dependencies": {
     "CocoaLumberjack/Swift": [
 
+    ],
+    "ZipArchive": [
+
     ]
   }
 }

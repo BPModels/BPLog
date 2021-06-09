@@ -12,6 +12,7 @@
 
 #import "BPLogFormatter.h"
 #import "BPOCLog.h"
+#import "BPOCMacro.h"
 
 FOUNDATION_EXPORT double BPLogVersionNumber;
 FOUNDATION_EXPORT const unsigned char BPLogVersionString[];

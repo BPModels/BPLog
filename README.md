@@ -27,3 +27,12 @@ TestEngineerFish, 916878440@qq.com
 ## License
 
 BPLog is available under the MIT license. See the LICENSE file for more info.
+
+* 网络请求日志：BPRequest("request")
+* 普通操作日志：BPLog("e.g. click button")
+
+## 说明
+可通过继承 **BPLogDelegate** 对打包后的日志追加需要的信息，比如用户信息和设备信息等
+如需获取日志具体地址，可通过 **BPLogManger** 来获取，实际上大部分的操作也都是由其来提供
+
+
