@@ -19,7 +19,7 @@ public protocol BPLogDelegate: NSObjectProtocol {
 }
 
 /// 日志管理
-public struct BPLogManager {
+public class BPLogManager {
     public static let share = BPLogManager()
     
     public var delegate: BPLogDelegate?

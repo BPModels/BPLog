@@ -7,11 +7,21 @@
 //
 
 import UIKit
+import BPLog
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, BPLogDelegate {
+    func addNormalLogAfter() {
+        BPLog(1)
+    }
+    
+    func addRequestLogAfter() {
+        BPLog(2)
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        BPLogManager.share.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
 
