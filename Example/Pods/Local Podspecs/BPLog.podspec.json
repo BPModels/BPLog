@@ -1,0 +1,28 @@
+{
+  "name": "BPLog",
+  "version": "0.1.0",
+  "summary": "A short description of BPLog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BPModels/BPLog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TestEngineerFish": "916878440@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/BPModels/BPLog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "BPLog/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "CocoaLumberjack/Swift": [
+
+    ]
+  }
+}

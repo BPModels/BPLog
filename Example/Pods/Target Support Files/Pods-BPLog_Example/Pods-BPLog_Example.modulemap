@@ -1,0 +1,6 @@
+framework module Pods_BPLog_Example {
+  umbrella header "Pods-BPLog_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
