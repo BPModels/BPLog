@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BPLog'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'A short description of BPLog.'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit'
+#   s.frameworks = 'UIKit'
    # 日志收集
    s.dependency 'CocoaLumberjack/Swift'
    # 压、解压缩处理
