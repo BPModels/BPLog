@@ -1,6 +1,6 @@
 {
   "name": "BPLog",
-  "version": "0.1.0",
+  "version": "0.1.6",
   "summary": "A short description of BPLog.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/BPModels/BPLog",
@@ -13,13 +13,13 @@
   },
   "source": {
     "git": "https://github.com/BPModels/BPLog.git",
-    "tag": "0.1.0"
+    "tag": "0.1.6"
   },
+  "swift_versions": "5.0",
   "platforms": {
     "ios": "10.0"
   },
   "source_files": "BPLog/Classes/**/*",
-  "frameworks": "UIKit",
   "dependencies": {
     "CocoaLumberjack/Swift": [
 
@@ -27,5 +27,6 @@
     "ZipArchive": [
 
     ]
-  }
+  },
+  "swift_version": "5.0"
 }
