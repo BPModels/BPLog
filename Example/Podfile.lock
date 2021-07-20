@@ -1,5 +1,5 @@
 PODS:
-  - BPLog (0.1.6):
+  - BPLog (0.1.8):
     - CocoaLumberjack/Swift
     - ZipArchive
   - CocoaLumberjack/Core (3.7.2)
@@ -20,10 +20,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BPLog: 96b59840420c9f4850e9f9818e856be5b729b1f8
+  BPLog: 82ddf1d23127cc23859742d1267c1ec4c259ec0c
   CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
   ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
 
-PODFILE CHECKSUM: 36f384931bc54dfe8ee09d92d92f00f9f4641198
+PODFILE CHECKSUM: 8d53508ab586f38bb5c8bf7c77db102680180b81
 
 COCOAPODS: 1.10.1
